@@ -1,0 +1,316 @@
+[11-Aug-2024 12:56:31 UTC] PHP Warning:  require(/home/h6yy7qm6gnyq/public_html/rtech/../vendor/autoload.php): failed to open stream: No such file or directory in /home/h6yy7qm6gnyq/public_html/rtech/index.php on line 34
+[11-Aug-2024 12:56:31 UTC] PHP Fatal error:  require(): Failed opening required '/home/h6yy7qm6gnyq/public_html/rtech/../vendor/autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/h6yy7qm6gnyq/public_html/rtech/index.php on line 34
+[11-Aug-2024 12:56:34 UTC] PHP Warning:  require(/home/h6yy7qm6gnyq/public_html/rtech/../vendor/autoload.php): failed to open stream: No such file or directory in /home/h6yy7qm6gnyq/public_html/rtech/index.php on line 34
+[11-Aug-2024 12:56:34 UTC] PHP Fatal error:  require(): Failed opening required '/home/h6yy7qm6gnyq/public_html/rtech/../vendor/autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/h6yy7qm6gnyq/public_html/rtech/index.php on line 34
+[09-Sep-2024 02:32:25 UTC] PHP Warning:  require_once(/home/h6yy7qm6gnyq/public_html/rtechpublic_html/rtech/public/index.php): failed to open stream: No such file or directory in /home/h6yy7qm6gnyq/public_html/rtech/server.php on line 21
+[09-Sep-2024 02:32:25 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/h6yy7qm6gnyq/public_html/rtechpublic_html/rtech/public/index.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/h6yy7qm6gnyq/public_html/rtech/server.php on line 21
+[09-Sep-2024 02:32:36 UTC] PHP Warning:  require_once(/home/h6yy7qm6gnyq/public_html/rtechpublic_html/rtech/public/index.php): failed to open stream: No such file or directory in /home/h6yy7qm6gnyq/public_html/rtech/server.php on line 21
+[09-Sep-2024 02:32:36 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/h6yy7qm6gnyq/public_html/rtechpublic_html/rtech/public/index.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/h6yy7qm6gnyq/public_html/rtech/server.php on line 21
+[15-Sep-2024 15:35:33 UTC] PHP Warning:  include(/home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/ClassLoader.php on line 576
+[15-Sep-2024 15:35:33 UTC] PHP Warning:  include(): Failed opening '/home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/ClassLoader.php on line 576
+[15-Sep-2024 15:35:33 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(873): Illuminate\Container\ in /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 879
+[15-Sep-2024 15:35:36 UTC] PHP Warning:  include(/home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/ClassLoader.php on line 576
+[15-Sep-2024 15:35:36 UTC] PHP Warning:  include(): Failed opening '/home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/ClassLoader.php on line 576
+[15-Sep-2024 15:35:36 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(873): Illuminate\Container\ in /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 879
+[15-Sep-2024 15:35:38 UTC] PHP Warning:  include(/home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/ClassLoader.php on line 576
+[15-Sep-2024 15:35:38 UTC] PHP Warning:  include(): Failed opening '/home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/ClassLoader.php on line 576
+[15-Sep-2024 15:35:38 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(873): Illuminate\Container\ in /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 879
+[15-Sep-2024 15:35:39 UTC] PHP Warning:  include(/home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/ClassLoader.php on line 576
+[15-Sep-2024 15:35:39 UTC] PHP Warning:  include(): Failed opening '/home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/ClassLoader.php on line 576
+[15-Sep-2024 15:35:39 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(873): Illuminate\Container\ in /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 879
+[15-Sep-2024 15:35:40 UTC] PHP Warning:  include(/home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/ClassLoader.php on line 576
+[15-Sep-2024 15:35:40 UTC] PHP Warning:  include(): Failed opening '/home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/ClassLoader.php on line 576
+[15-Sep-2024 15:35:40 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(873): Illuminate\Container\ in /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 879
+[15-Sep-2024 15:35:41 UTC] PHP Warning:  include(/home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/ClassLoader.php on line 576
+[15-Sep-2024 15:35:41 UTC] PHP Warning:  include(): Failed opening '/home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/ClassLoader.php on line 576
+[15-Sep-2024 15:35:41 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(873): Illuminate\Container\ in /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 879
+[15-Sep-2024 15:36:10 UTC] PHP Warning:  include(/home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/ClassLoader.php on line 576
+[15-Sep-2024 15:36:10 UTC] PHP Warning:  include(): Failed opening '/home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/ClassLoader.php on line 576
+[15-Sep-2024 15:36:10 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(873): Illuminate\Container\ in /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 879
+[15-Sep-2024 15:36:15 UTC] PHP Warning:  include(/home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/ClassLoader.php on line 576
+[15-Sep-2024 15:36:15 UTC] PHP Warning:  include(): Failed opening '/home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/ClassLoader.php on line 576
+[15-Sep-2024 15:36:15 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(873): Illuminate\Container\ in /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 879
+[15-Sep-2024 15:36:19 UTC] PHP Warning:  include(/home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/ClassLoader.php on line 576
+[15-Sep-2024 15:36:19 UTC] PHP Warning:  include(): Failed opening '/home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/ClassLoader.php on line 576
+[15-Sep-2024 15:36:19 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(873): Illuminate\Container\ in /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 879
+[15-Sep-2024 15:37:07 UTC] PHP Warning:  include(/home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/ClassLoader.php on line 576
+[15-Sep-2024 15:37:07 UTC] PHP Warning:  include(): Failed opening '/home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/ClassLoader.php on line 576
+[15-Sep-2024 15:37:07 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(873): Illuminate\Container\ in /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 879
+[15-Sep-2024 15:37:21 UTC] PHP Warning:  include(/home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/ClassLoader.php on line 576
+[15-Sep-2024 15:37:21 UTC] PHP Warning:  include(): Failed opening '/home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/ClassLoader.php on line 576
+[15-Sep-2024 15:37:21 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(873): Illuminate\Container\ in /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 879
+[15-Sep-2024 15:37:23 UTC] PHP Warning:  include(/home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/ClassLoader.php on line 576
+[15-Sep-2024 15:37:23 UTC] PHP Warning:  include(): Failed opening '/home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/ClassLoader.php on line 576
+[15-Sep-2024 15:37:23 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(873): Illuminate\Container\ in /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 879
+[15-Sep-2024 15:37:26 UTC] PHP Warning:  include(/home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/ClassLoader.php on line 576
+[15-Sep-2024 15:37:26 UTC] PHP Warning:  include(): Failed opening '/home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/ClassLoader.php on line 576
+[15-Sep-2024 15:37:26 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(873): Illuminate\Container\ in /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 879
+[15-Sep-2024 15:37:28 UTC] PHP Warning:  include(/home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/ClassLoader.php on line 576
+[15-Sep-2024 15:37:28 UTC] PHP Warning:  include(): Failed opening '/home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/ClassLoader.php on line 576
+[15-Sep-2024 15:37:28 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(873): Illuminate\Container\ in /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 879
+[15-Sep-2024 15:37:28 UTC] PHP Warning:  include(/home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/ClassLoader.php on line 576
+[15-Sep-2024 15:37:28 UTC] PHP Warning:  include(): Failed opening '/home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/ClassLoader.php on line 576
+[15-Sep-2024 15:37:28 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(873): Illuminate\Container\ in /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 879
+[15-Sep-2024 15:37:34 UTC] PHP Warning:  include(/home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/ClassLoader.php on line 576
+[15-Sep-2024 15:37:34 UTC] PHP Warning:  include(): Failed opening '/home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/ClassLoader.php on line 576
+[15-Sep-2024 15:37:34 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(873): Illuminate\Container\ in /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 879
+[15-Sep-2024 15:47:10 UTC] PHP Warning:  include(/home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/ClassLoader.php on line 576
+[15-Sep-2024 15:47:10 UTC] PHP Warning:  include(): Failed opening '/home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/ClassLoader.php on line 576
+[15-Sep-2024 15:47:10 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(873): Illuminate\Container\ in /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 879
+[15-Sep-2024 15:52:25 UTC] PHP Warning:  include(/home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/ClassLoader.php on line 576
+[15-Sep-2024 15:52:25 UTC] PHP Warning:  include(): Failed opening '/home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/ClassLoader.php on line 576
+[15-Sep-2024 15:52:25 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(873): Illuminate\Container\ in /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 879
+[15-Sep-2024 15:52:26 UTC] PHP Warning:  include(/home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/ClassLoader.php on line 576
+[15-Sep-2024 15:52:26 UTC] PHP Warning:  include(): Failed opening '/home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/ClassLoader.php on line 576
+[15-Sep-2024 15:52:26 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(873): Illuminate\Container\ in /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 879
+[15-Sep-2024 15:52:32 UTC] PHP Warning:  include(/home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/ClassLoader.php on line 576
+[15-Sep-2024 15:52:32 UTC] PHP Warning:  include(): Failed opening '/home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/ClassLoader.php on line 576
+[15-Sep-2024 15:52:32 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(873): Illuminate\Container\ in /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 879
+[15-Sep-2024 15:52:34 UTC] PHP Warning:  include(/home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/ClassLoader.php on line 576
+[15-Sep-2024 15:52:34 UTC] PHP Warning:  include(): Failed opening '/home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/ClassLoader.php on line 576
+[15-Sep-2024 15:52:34 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(873): Illuminate\Container\ in /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 879
+[15-Sep-2024 16:26:21 UTC] PHP Warning:  include(/home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/ClassLoader.php on line 576
+[15-Sep-2024 16:26:21 UTC] PHP Warning:  include(): Failed opening '/home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/ClassLoader.php on line 576
+[15-Sep-2024 16:26:21 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(873): Illuminate\Container\ in /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 879
+[15-Sep-2024 16:26:49 UTC] PHP Warning:  include(/home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/ClassLoader.php on line 576
+[15-Sep-2024 16:26:49 UTC] PHP Warning:  include(): Failed opening '/home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/ClassLoader.php on line 576
+[15-Sep-2024 16:26:49 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(873): Illuminate\Container\ in /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 879
+[15-Sep-2024 16:29:16 UTC] PHP Warning:  include(/home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/ClassLoader.php on line 576
+[15-Sep-2024 16:29:16 UTC] PHP Warning:  include(): Failed opening '/home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/ClassLoader.php on line 576
+[15-Sep-2024 16:29:16 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(873): Illuminate\Container\ in /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 879
+[15-Sep-2024 16:29:18 UTC] PHP Warning:  include(/home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/ClassLoader.php on line 576
+[15-Sep-2024 16:29:18 UTC] PHP Warning:  include(): Failed opening '/home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/ClassLoader.php on line 576
+[15-Sep-2024 16:29:18 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(873): Illuminate\Container\ in /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 879
+[15-Sep-2024 16:29:19 UTC] PHP Warning:  include(/home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/ClassLoader.php on line 576
+[15-Sep-2024 16:29:19 UTC] PHP Warning:  include(): Failed opening '/home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/ClassLoader.php on line 576
+[15-Sep-2024 16:29:19 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(873): Illuminate\Container\ in /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 879
+[15-Sep-2024 16:29:26 UTC] PHP Warning:  include(/home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/ClassLoader.php on line 576
+[15-Sep-2024 16:29:26 UTC] PHP Warning:  include(): Failed opening '/home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/ClassLoader.php on line 576
+[15-Sep-2024 16:29:26 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(873): Illuminate\Container\ in /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 879
+[15-Sep-2024 16:31:22 UTC] PHP Warning:  include(/home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/ClassLoader.php on line 576
+[15-Sep-2024 16:31:22 UTC] PHP Warning:  include(): Failed opening '/home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/ClassLoader.php on line 576
+[15-Sep-2024 16:31:22 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(873): Illuminate\Container\ in /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 879
+[15-Sep-2024 16:32:00 UTC] PHP Warning:  include(/home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/ClassLoader.php on line 576
+[15-Sep-2024 16:32:00 UTC] PHP Warning:  include(): Failed opening '/home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/ClassLoader.php on line 576
+[15-Sep-2024 16:32:00 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(873): Illuminate\Container\ in /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 879
+[15-Sep-2024 16:33:37 UTC] PHP Warning:  include(/home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/ClassLoader.php on line 576
+[15-Sep-2024 16:33:37 UTC] PHP Warning:  include(): Failed opening '/home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/ClassLoader.php on line 576
+[15-Sep-2024 16:33:37 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(873): Illuminate\Container\ in /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 879
+[15-Sep-2024 16:34:12 UTC] PHP Warning:  include(/home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/ClassLoader.php on line 576
+[15-Sep-2024 16:34:12 UTC] PHP Warning:  include(): Failed opening '/home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/ClassLoader.php on line 576
+[15-Sep-2024 16:34:12 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(873): Illuminate\Container\ in /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 879
+[15-Sep-2024 16:34:21 UTC] PHP Warning:  include(/home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/ClassLoader.php on line 576
+[15-Sep-2024 16:34:21 UTC] PHP Warning:  include(): Failed opening '/home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/ClassLoader.php on line 576
+[15-Sep-2024 16:34:21 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(873): Illuminate\Container\ in /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 879
+[15-Sep-2024 16:34:28 UTC] PHP Warning:  include(/home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/ClassLoader.php on line 576
+[15-Sep-2024 16:34:28 UTC] PHP Warning:  include(): Failed opening '/home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/h6yy7qm6gnyq/public_html/rtech/vendor/composer/ClassLoader.php on line 576
+[15-Sep-2024 16:34:28 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php(873): Illuminate\Container\ in /home/h6yy7qm6gnyq/public_html/rtech/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 879
+[24-Sep-2024 02:57:56 UTC] PHP Fatal error:  Class App\Models\Epic contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (App\Models\Epic::sluggable) in /home/h6yy7qm6gnyq/public_html/rtech/app/Models/Epic.php on line 9
+[24-Sep-2024 11:48:37 UTC] PHP Fatal error:  Class App\Models\MarsRover contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (App\Models\MarsRover::sluggable) in /home/h6yy7qm6gnyq/public_html/rtech/app/Models/MarsRover.php on line 9
+[24-Sep-2024 11:48:45 UTC] PHP Fatal error:  Class App\Models\MarsRover contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (App\Models\MarsRover::sluggable) in /home/h6yy7qm6gnyq/public_html/rtech/app/Models/MarsRover.php on line 9
+[24-Sep-2024 12:28:56 UTC] PHP Fatal error:  Class App\Models\MarsRover contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (App\Models\MarsRover::sluggable) in /home/h6yy7qm6gnyq/public_html/rtech/app/Models/MarsRover.php on line 9
+[24-Sep-2024 16:04:31 UTC] PHP Fatal error:  Class App\Models\MarsRover contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (App\Models\MarsRover::sluggable) in /home/h6yy7qm6gnyq/public_html/rtech/app/Models/MarsRover.php on line 9
+[24-Sep-2024 16:04:41 UTC] PHP Fatal error:  Class App\Models\MarsRover contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (App\Models\MarsRover::sluggable) in /home/h6yy7qm6gnyq/public_html/rtech/app/Models/MarsRover.php on line 9
+[24-Sep-2024 16:04:41 UTC] PHP Fatal error:  Class App\Models\MarsRover contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (App\Models\MarsRover::sluggable) in /home/h6yy7qm6gnyq/public_html/rtech/app/Models/MarsRover.php on line 9
+[24-Sep-2024 16:16:29 UTC] PHP Fatal error:  Class App\Models\MarsRover contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (App\Models\MarsRover::sluggable) in /home/h6yy7qm6gnyq/public_html/rtech/app/Models/MarsRover.php on line 9
+[24-Sep-2024 16:24:58 UTC] PHP Fatal error:  Class App\Models\Apod contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (App\Models\Apod::sluggable) in /home/h6yy7qm6gnyq/public_html/rtech/app/Models/Apod.php on line 9
+[25-Sep-2024 12:56:26 UTC] PHP Fatal error:  Class App\Models\Epic contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (App\Models\Epic::sluggable) in /home/h6yy7qm6gnyq/public_html/rtech/app/Models/Epic.php on line 9
+[25-Sep-2024 13:10:00 UTC] PHP Fatal error:  Class App\Models\Epic contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (App\Models\Epic::sluggable) in /home/h6yy7qm6gnyq/public_html/rtech/app/Models/Epic.php on line 9
