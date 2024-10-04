@@ -107,8 +107,6 @@ Route::get('/services', function () {
 Route::get('/contact', function () {
     return view('web.contact');
 });
-
-
 // BACKEND CREATION AND DATA MANIPULATION ROUTES ****************
 
 // Route::get('/blog-generate', [BlogController::class, 'ScienceNews']);
