@@ -201,10 +201,10 @@ sup {
   top: -.5em; }
 
 a {
-  color: #f8f9fa;
+  color: #000000;
   text-decoration: underline; }
   a:hover {
-    color: #151616; }
+    color: #1a3542; }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
   color: inherit;
@@ -10010,7 +10010,7 @@ textarea {
       border-radius: 10px; }
 
 .read-more {
-  border-bottom: 2px solid #f8f9fa; }
+  border-bottom: 2px solid #000000; }
 
 .post-entry-alt h2, .post-entry-alt .h2 {
   font-size: 18px;
