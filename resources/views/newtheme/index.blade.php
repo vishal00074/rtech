@@ -6,31 +6,30 @@
 		width:25rem;
 	}
 
-	.latestVideo{
-		position: fixed;
-		top: 0;
-		left: 0;
-		width: 100vh;
-		height: 100vh; /* 100% of the viewport height */
-		object-fit: cover; /* Ensures the video covers the entire screen */
-		z-index: -1; /* Keep the video behind the content */
-	}
-	.video-container {
-		position: relative;
-		overflow: hidden;
-		height: 100vh;
-	}
-	.video-heading {
-		position: absolute;
-		top: 50%;
-		left: 50%;
-		transform: translate(-50%, -50%);
-		color: white;
-		font-size: 3rem;
-		text-align: center;
-		z-index: 1; /* Ensure it's above the video */
-		/* width: 100%; */
-	}
+	/*.latestVideo{*/
+	/*	position: fixed;*/
+	/*	top: 0;*/
+	/*	left: 0;*/
+	/*	width: 100vh;*/
+	/*	height: 100vh;*/
+	/*	object-fit: cover;*/
+	/*	z-index: -1;*/
+	/*}*/
+	/*.video-container {*/
+	/*	position: relative;*/
+	/*	overflow: hidden;*/
+	/*	height: 100vh;*/
+	/*}*/
+	/*.video-heading {*/
+	/*	position: absolute;*/
+	/*	top: 50%;*/
+	/*	left: 50%;*/
+	/*	transform: translate(-50%, -50%);*/
+	/*	color: white;*/
+	/*	font-size: 3rem;*/
+	/*	text-align: center;*/
+	/*	z-index: 1;*/
+	/*}*/
 </style>
 @endsection
 

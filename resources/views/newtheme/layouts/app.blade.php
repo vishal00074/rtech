@@ -54,28 +54,20 @@
 							<a href="{{ url('/') }}" class="logo m-0 float-start">R Tech<span class="text-primary">.</span></a>
 						</div>
 						<div class="col-6 text-center">
-
-							
-
 							<ul class="js-clone-nav d-none d-lg-inline-block text-start site-menu mx-auto">
-
 								<li class="active"><a href="{{ url('/') }}">Home</a></li>
-								<li><a href="{{url('/blogs')}}">Blogs</a></li>
-								<li class="dropdown">
-									<a class=" dropdown-toggle" type="button" data-toggle="dropdown">Gallery
-									</a>
-									<ul class="dropdown-menu">
-									    <li><a href="{{url('earth_gallery')}}">Earth Gallery</a></li>
+								<li class="has-children active">
+									<a href="#">Gallery</a>
+									<ul class="dropdown">
+										<li><a href="{{url('earth_gallery')}}">Earth Gallery</a></li>
 										<li><a href="{{url('/mars/gallery')}}">Mars Gallery</a></li>
 										<li><a href="{{url('video_gallery')}}">Video Gallery</a></li>
 										<li><a href="{{url('apod_gallery')}}">Cosmos Gallery</a></li>
 									</ul>
- 								</li>
-
-
-
+								</li>
+								<li><a href="{{url('/blogs')}}">Blogs</a></li>
 								@auth
-								<li><a href="{{url('/create_blog')}}">Create Blog</a></li>
+								    <li><a href="{{url('/create_blog')}}">Create Blog</a></li>
 								@endif
 								
 								<li class="d-inline-block d-lg-none">
@@ -83,8 +75,9 @@
 										<a href="{{url('/login')}}" class="btn btn-sm btn-color-d">Login </a>
 										<a href="{{url('/register')}}" class="btn btn-sm btn-color-d"> Register</a>
 									@else
-									<a href="" class="profile-icon"><img src="https://mdbcdn.b-cdn.net/img/new/avatars/8.webp" class="rounded-circle mb-3" style="width: 50px;"alt="Avatar" />
-									</a>
+									    <a href="" class="profile-icon">
+									        <img src="https://mdbcdn.b-cdn.net/img/new/avatars/8.webp" class="rounded-circle mb-3" style="width: 50px;"alt="Avatar" />
+								        </a>
 										<a href="{{url('/sign-out')}}" class="btn btn-sm btn-color-d">SignOut </a>
 									@endif
 								</li>
@@ -103,11 +96,10 @@
 								<ul class="js-clone-nav d-none d-lg-inline-block text-start site-menu mx-auto">
 								    <li class="d-none d-lg-inline-block">
 										<a href="" class="profile-icon">
-										<img src="https://mdbcdn.b-cdn.net/img/new/avatars/8.webp" class="rounded-circle mb-3" style="width: 50px;"alt="Avatar" />
+										    <img src="https://mdbcdn.b-cdn.net/img/new/avatars/8.webp" class="rounded-circle mb-3" style="width: 50px;"alt="Avatar" />
 										</a>
 									</li>	
 									<li class="has-children d-none d-lg-inline-block">
-									
 										<a href="" class="">{{auth()->user()->name ?? ''}}</a>
 										<ul class="dropdown">
 											<li>
@@ -120,7 +112,6 @@
 								<!-- <span>{{auth()->user()->name ?? ''}}</span>
 								<a href="{{url('/sign-out')}}" class="d-none d-lg-inline-block btn btn-sm btn-color">SignOut </a> -->
 							@endif
-							
 							
 							<!-- <form action="#" class="search-form d-none d-lg-inline-block">
 								<input type="text" class="form-control" placeholder="Search...">
